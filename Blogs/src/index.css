@@ -1,0 +1,71 @@
+.blogPreview{
+  width: 50%;
+  margin: 0 auto ;  
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+.navbar{
+  display: flex;
+  flex: wrap;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  }
+.links a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.links{
+  margin-left: 8%;
+}
+.navbar h2{
+  color: rgb(0, 102, 255);
+}
+.navbar .newBlog{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px ;
+} 
+.blogPreview a{
+  text-decoration: none;
+  color:black;
+}
+.blog-detail {
+  width: 56%;
+  margin: 0 auto;
+  color: rgb(5, 17, 10);
+}
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create button{
+  padding: 8px 12px;
+  background-color: #f1356d;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.create input, .create textarea, .create select{
+  width: 100%;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  display: block;
+}
+.create h1 {
+  font-size: 38px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
